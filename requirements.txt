@@ -1,3 +1,4 @@
-streamlit
-openai
-langchain
+beautifulsoup4==4.12.2
+langchain==0.0.306
+Requests==2.31.0
+streamlit==1.25.0
