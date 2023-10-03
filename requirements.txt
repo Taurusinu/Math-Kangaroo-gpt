@@ -83,6 +83,7 @@ soupsieve==2.5
 SQLAlchemy==2.0.20
 starlette==0.27.0
 streamlit==1.25.0
+<<<<<<< HEAD
 sympy==1.12
 tenacity==8.2.3
 tiktoken==0.4.0
@@ -104,3 +105,6 @@ websockets==11.0.3
 yarg==0.1.9
 yarl==1.9.2
 zipp==3.16.2
+=======
+opeanai==0.27.8
+>>>>>>> dc7badb71d5717ac29fd79fd755e135887ae1467
