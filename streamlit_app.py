@@ -34,7 +34,7 @@ def generate_response(input_text):
     c1, c2 = st.columns(2,gap="large")
     vedioURL = getIMG.get_youtube_thumbnail(data["link"])
     with c1:
-        st.markdown(f'<a href="{data["link"]}"><img src="{vedioURL}" width ="500" height="400" alt="centered image"></a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="{data["link"]}"><img src="{vedioURL}" width ="500" height="300" alt="centered image"></a>', unsafe_allow_html=True)
     with c2:
         st.markdown(f'''
                         <section class="feature-post solution">
