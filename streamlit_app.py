@@ -9,6 +9,10 @@ import time
 import os
 import json
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 st.set_page_config(page_title="📚 📐 Math-Kangaroo")
 
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type="password")
