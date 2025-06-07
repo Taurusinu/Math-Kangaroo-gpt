@@ -22,7 +22,7 @@ st.title('📚 📐 Math-Kangaroo')
 
 
 def generate_response(input_text):
-    llm = ChatOpenAI(model_name='gpt-3.5-turbo-16k', temperature=0)
+    llm = ChatOpenAI(base_url='https://xiaoai.plus/v1', model_name='gpt-3.5-turbo-16k', temperature=0)
     embeddings = OpenAIEmbeddings(request_timeout=600)
 
 
